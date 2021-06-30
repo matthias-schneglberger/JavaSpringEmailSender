@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Arial">
+    <style>
+        body {
+            font-family: 'Arial', serif;
+        }
+        .output
+        {
+            padding:0 15px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Terminbestätigung</title>
+</head>
+<body>
+<h2>Terminbestätigung</h2>
+<p>Ihr Termin für den kostenlosen COVID-19 Test wurde gebucht.<br>Zum Test bitte mitbringen:</p>
+<ul>
+    <li>Gedruckten Laufzettel aus Ihrer Anmeldung <b>oder</b> die Laufzettel-Nummer</li>
+    <li>Ausweis</li>
+</ul>
+<table>
+    <tr>
+        <td><b>Laufzettel-Nummer</b></td>
+        <td class="output">@DocketNumber</td>
+    </tr>
+    <tr>
+        <td><b>Datum</b></td>
+        <td class="output">@Date</td>
+    </tr>
+    <tr>
+        <td><b>Zeit</b></td>
+        <td class="output">@Time</td>
+    </tr>
+    <tr>
+        <td><b>Ort</b></td>
+        <td class="output">@Place</td>
+    </tr>
+</table>
+<br>
+<a href="@Link"><button style="color: white; background: #b81a1f; font-size: 20px; border: none; padding: 10px">Termin anzeigen</button></a><br><br>
+<footer>
+    <div>-------------------------------------------</div>
+    Bundesministerium<br>
+    Soziales, Gesundheit, Pflege<br>
+    und Konsumentenschutz
+</footer>
+</body>
+</html>
